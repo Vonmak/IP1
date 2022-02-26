@@ -3,6 +3,8 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+/* start of header section */
 a {
   text-decoration: none;
 }
@@ -19,6 +21,19 @@ header {
   overflow: hidden;
   background-color: aqua;
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
+  justify-content: space-between;
+  align-items: center;
 }
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 0.9rem 1.2rem;
+}
+/* nav ul li a.active { 
+  background-color: bisque;
+  border-radius: 10px;*/
+}
+
+/* end of header section */
