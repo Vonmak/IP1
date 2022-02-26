@@ -2,8 +2,23 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  background-color: azure;
 }
-.main {
-  margin: 20px;
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  background-color: aqua;
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
 }
