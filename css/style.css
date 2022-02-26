@@ -15,14 +15,22 @@ img {
   width: 100px;
   border-radius: 10px;
 }
-
+.header {
+  height: 100vh;
+  background-position: center;
+  background-size: 1500px;
+}
 header {
-  width: 100%;
+  /* width: 100%; */
+  max-width: 80rem;
+  margin: 0 auto;
   overflow: hidden;
-  background-color: aqua;
+  background-color: bisque;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid aqua;
+  border-radius: 10px;
 }
 nav ul {
   display: flex;
@@ -31,9 +39,26 @@ nav ul li a {
   display: inline-block;
   padding: 0.9rem 1.2rem;
 }
-/* nav ul li a.active { 
-  background-color: bisque;
-  border-radius: 10px;*/
+nav ul li a.active {
+  background-color: aqua;
+  border-radius: 10px;
 }
 
 /* end of header section */
+
+/* start hero section */
+.hero {
+  height: 500px;
+  border: 50px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  max-width: 50rem;
+
+  margin: 0 auto;
+
+  /* text-align: center; */
+}
