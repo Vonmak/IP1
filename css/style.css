@@ -1,10 +1,10 @@
+/* start of global variables */
 * {
   margin: 0;
   box-sizing: border-box;
   padding: 0;
 }
 
-/* start of header section */
 a {
   text-decoration: none;
 }
@@ -18,6 +18,9 @@ img {
 .main {
   background-color: azure;
 }
+/* end of global variables */
+
+/* start of header section */
 .header {
   height: 100vh;
   max-width: 100%;
