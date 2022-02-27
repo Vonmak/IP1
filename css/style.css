@@ -77,3 +77,32 @@ nav ul li a.active {
   justify-content: center;
   align-items: center;
 }
+/* start of the resume */
+.resume {
+  width: 100%;
+  height: 300px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* start of the education section in the reume */
+.education {
+  border: 1px solid black;
+  height: fit-content;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.education li {
+  list-style-type: square;
+}
+/* end of the education section in the resume section */
+
+/* start of the work experience section in the resume section */
+/* .experience{
+   border: 1px solid black;
+ } */
+/* end of the work experience section in the resume section */
+
+/* end of the resume */
