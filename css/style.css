@@ -35,7 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid #4dff88;
+  border: 2px solid #0000ff;
   border-radius: 10px;
 }
 nav ul {
@@ -55,22 +55,18 @@ nav ul li a.active {
 /* start hero section */
 .hero {
   height: fit-content;
-  color: black;
-
-  /* border: 50px; */
-  /* background-color: aquamarine; */
+  color: #0000ff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  max-width: 50rem;
+  max-width: 30rem;
   background-color: aliceblue;
-  border: 2px solid #4dff88;
+  box-shadow: 0 0 50px #0000ff;
   opacity: 0.5;
   margin: 300px auto;
-
-  /* text-align: center; */
+  border-radius: 10px;
 }
 /* end of hero section */
 
@@ -83,6 +79,16 @@ nav ul li a.active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: larger;
+  overflow: scroll;
+}
+.about h3 {
+  margin: 20px;
+}
+.about h3 span {
+  color: #0000ff;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 /* start of the resume */
 .resume {
@@ -101,6 +107,7 @@ nav ul li a.active {
   border-radius: 10px;
   box-shadow: 0 0 50px #ccc;
   text-align: center;
+  overflow: scroll;
 }
 .education li {
   list-style-type: none;
@@ -136,6 +143,7 @@ nav ul li a.active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: large;
 }
 /* end of the projects section */
 
@@ -172,5 +180,20 @@ footer {
   align-items: center;
 }
 /* end of the footer section */
+
+/* start of media queries */
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  body {
+    color: black;
+  }
+}
+@media screen and (min-width: 801spx) {
+  body {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
+/* end of meadia queries */
 
 /* end of the body section */
