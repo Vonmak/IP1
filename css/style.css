@@ -67,7 +67,7 @@ nav ul li a.active {
   max-width: 50rem;
   background-color: aliceblue;
   border: 2px solid #4dff88;
-  opacity: 0.6;
+  opacity: 0.5;
   margin: 300px auto;
 
   /* text-align: center; */
@@ -88,7 +88,7 @@ nav ul li a.active {
 .resume {
   width: 100%;
   height: 500px;
-  background-color: blanchedalmond;
+  background-color: azure;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -96,24 +96,32 @@ nav ul li a.active {
 
 /* start of the education section in the reume */
 .education {
-  border: 1px solid black;
   height: 300px;
-  background-color: aquamarine;
+  background-color: aliceblue;
   border-radius: 10px;
+  box-shadow: 0 0 50px #ccc;
+  text-align: center;
 }
 .education li {
-  list-style-type: square;
+  list-style-type: none;
+  margin: 10px;
 }
 /* end of the education section in the resume section */
 
 /* start of the work experience section in the resume section */
 .experience {
-  border: 1px solid black;
   height: 300px;
-  background-color: aquamarine;
-  display: flex;
-  flex-direction: column;
+  background-color: aliceblue;
+  box-shadow: 0 0 50px #ccc;
   border-radius: 10px;
+  text-align: center;
+  overflow: scroll;
+}
+.experience h4 {
+  margin: 10px;
+}
+.experience li {
+  list-style-type: decimal;
 }
 /* end of the work experience section in the resume section */
 
@@ -121,7 +129,7 @@ nav ul li a.active {
 
 /* start of the projects section */
 .projects {
-  background-color: rgb(231, 178, 107);
+  background-color: aliceblue;
   width: 100%;
   height: 400px;
   display: flex;
@@ -133,7 +141,7 @@ nav ul li a.active {
 
 /* start of the skills section */
 .skills {
-  background-color: aqua;
+  background-color: azure;
   width: 100%;
   height: 200px;
   display: flex;
@@ -142,11 +150,14 @@ nav ul li a.active {
 }
 #ski {
   background-color: aliceblue;
-  height: fit-content;
+  height: 150px;
+  box-shadow: 0 0 50px #ccc;
+  text-align: center;
+  border-radius: 10px;
+  overflow: scroll;
 }
-#hob {
-  background-color: aliceblue;
-  height: auto;
+#ski li {
+  margin: 20px;
 }
 /* end of the skills section */
 
