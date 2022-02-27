@@ -1,6 +1,6 @@
 # IP1
 
-This is project is a landing page for my portfolio.
+This project is a landing page for my portfolio.
 
 ## Table of contents
 
