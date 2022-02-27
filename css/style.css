@@ -142,3 +142,17 @@ nav ul li a.active {
   height: auto;
 }
 /* end of the skills section */
+
+/* start of the footer section */
+footer {
+  background-color: black;
+  height: 70px;
+  width: 100%;
+  color: azure;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* end of the footer section */
+
+/* end of the body section */
