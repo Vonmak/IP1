@@ -20,8 +20,9 @@ img {
 }
 .header {
   height: 100vh;
+  max-width: 100%;
   background-position: center;
-  background-size: 1500px;
+  background-size: cover;
 }
 header {
   /* width: 100%; */
@@ -52,8 +53,9 @@ nav ul li a.active {
 /* start hero section */
 .hero {
   height: 500px;
+  color: aliceblue;
   /* border: 50px; */
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   flex-direction: column;
   justify-content: center;
